@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'cyrillic-ext', sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  color:#0F084B;
+  margin: 0;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #26408B;
+  line-height: 2;
+}
+
+h2 {
+  color: #45cc64;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #0F084B;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #26408B;
+}
+
+button {
+  color: #0D0221;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  background-color: none;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px 0;
+  max-width: 100%;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 3px solid lightblue;
+  border-radius: 9px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  background-color: #26408B;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: azure;
+}
+
+.btn:hover {
+  background-color: #320880;
+  text-decoration: none;
+  color:azure;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.list-inline a {
+  text-decoration: none;
+}
+
+.profile-pic {
+  border-radius: 48%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
