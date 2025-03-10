@@ -107,3 +107,7 @@ button {
     width: 300px;
   }
 }
+
+.fab {
+  font-size: 40px;
+}
